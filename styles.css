@@ -550,6 +550,54 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   color: var(--accent);
 }
 
+/* ========== Color palette (skill groups + tags) ========== */
+/* Light mode — uses CSS vars on element so dark mode can override cleanly */
+.skill-group[data-color="0"] { --sg-color: #2563eb; }
+.skill-group[data-color="1"] { --sg-color: #0891b2; }
+.skill-group[data-color="2"] { --sg-color: #7c3aed; }
+.skill-group[data-color="3"] { --sg-color: #e11d48; }
+.skill-group[data-color="4"] { --sg-color: #d97706; }
+.skill-group[data-color="5"] { --sg-color: #16a34a; }
+.skill-group[data-color="6"] { --sg-color: #4338ca; }
+.skill-group[data-color="7"] { --sg-color: #0284c7; }
+
+[data-theme='dark'] .skill-group[data-color="0"] { --sg-color: #93c5fd; }
+[data-theme='dark'] .skill-group[data-color="1"] { --sg-color: #5eead4; }
+[data-theme='dark'] .skill-group[data-color="2"] { --sg-color: #c4b5fd; }
+[data-theme='dark'] .skill-group[data-color="3"] { --sg-color: #fda4af; }
+[data-theme='dark'] .skill-group[data-color="4"] { --sg-color: #fcd34d; }
+[data-theme='dark'] .skill-group[data-color="5"] { --sg-color: #86efac; }
+[data-theme='dark'] .skill-group[data-color="6"] { --sg-color: #a5b4fc; }
+[data-theme='dark'] .skill-group[data-color="7"] { --sg-color: #7dd3fc; }
+
+/* Colored tags */
+.tag-list li[data-color] {
+  background: var(--tc-bg);
+  border-color: var(--tc-border);
+  color: var(--tc-text);
+}
+.tag-list li[data-color]:hover {
+  filter: brightness(0.92);
+}
+
+.tag-list li[data-color="0"] { --tc-bg:#dbeafe; --tc-border:#93c5fd; --tc-text:#1d4ed8; }
+.tag-list li[data-color="1"] { --tc-bg:#ccfbf1; --tc-border:#5eead4; --tc-text:#0f766e; }
+.tag-list li[data-color="2"] { --tc-bg:#ede9fe; --tc-border:#c4b5fd; --tc-text:#6d28d9; }
+.tag-list li[data-color="3"] { --tc-bg:#ffe4e6; --tc-border:#fda4af; --tc-text:#be123c; }
+.tag-list li[data-color="4"] { --tc-bg:#fef3c7; --tc-border:#fcd34d; --tc-text:#b45309; }
+.tag-list li[data-color="5"] { --tc-bg:#dcfce7; --tc-border:#86efac; --tc-text:#15803d; }
+.tag-list li[data-color="6"] { --tc-bg:#e0e7ff; --tc-border:#a5b4fc; --tc-text:#4338ca; }
+.tag-list li[data-color="7"] { --tc-bg:#e0f2fe; --tc-border:#7dd3fc; --tc-text:#0369a1; }
+
+[data-theme='dark'] .tag-list li[data-color="0"] { --tc-bg:rgba(37,99,235,.15); --tc-border:rgba(147,197,253,.3); --tc-text:#93c5fd; }
+[data-theme='dark'] .tag-list li[data-color="1"] { --tc-bg:rgba(8,145,178,.15); --tc-border:rgba(94,234,212,.3); --tc-text:#5eead4; }
+[data-theme='dark'] .tag-list li[data-color="2"] { --tc-bg:rgba(124,58,237,.15); --tc-border:rgba(196,181,253,.3); --tc-text:#c4b5fd; }
+[data-theme='dark'] .tag-list li[data-color="3"] { --tc-bg:rgba(225,29,72,.15); --tc-border:rgba(253,164,175,.3); --tc-text:#fda4af; }
+[data-theme='dark'] .tag-list li[data-color="4"] { --tc-bg:rgba(217,119,6,.15); --tc-border:rgba(252,211,77,.3); --tc-text:#fcd34d; }
+[data-theme='dark'] .tag-list li[data-color="5"] { --tc-bg:rgba(22,163,74,.15); --tc-border:rgba(134,239,172,.3); --tc-text:#86efac; }
+[data-theme='dark'] .tag-list li[data-color="6"] { --tc-bg:rgba(67,56,202,.15); --tc-border:rgba(165,180,252,.3); --tc-text:#a5b4fc; }
+[data-theme='dark'] .tag-list li[data-color="7"] { --tc-bg:rgba(2,132,199,.15); --tc-border:rgba(125,211,252,.3); --tc-text:#7dd3fc; }
+
 /* Education card */
 .education-card {
   margin-top: 44px;
@@ -694,7 +742,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   font-family: 'JetBrains Mono', monospace;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--accent);
+  color: var(--sg-color, var(--accent));
   margin-bottom: 14px;
   font-weight: 500;
   display: flex;
@@ -707,14 +755,9 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--accent);
-  box-shadow: 0 0 8px var(--accent);
-}
-
-.skill-group:nth-child(2n) h3 { color: var(--accent-2); }
-.skill-group:nth-child(2n) h3::before {
-  background: var(--accent-2);
-  box-shadow: 0 0 8px var(--accent-2);
+  flex-shrink: 0;
+  background: var(--sg-color, var(--accent));
+  box-shadow: 0 0 8px var(--sg-color, var(--accent));
 }
 
 .skill-tags {
@@ -756,6 +799,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   background: #1b2c4a;
   border-color: #2e4270;
   box-shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 8px 32px rgba(0,0,0,0.5);
+}
+
+[data-theme='dark'] .chat-bubble.chat-bot {
+  background: #2e4468;
+  border-color: #3d5a8a;
 }
 
 .chat-widget::before {

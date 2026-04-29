@@ -14,9 +14,16 @@
     cap: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>',
   };
 
-  const tagList = (tags = []) =>
+  const COLOR_COUNT = 8;
+  const colorHash = (str) => {
+    let h = 5381;
+    for (let i = 0; i < str.length; i++) h = ((h * 33) ^ str.charCodeAt(i)) >>> 0;
+    return h % COLOR_COUNT;
+  };
+
+  const tagList = (tags = [], colored = false) =>
     tags.length
-      ? `<ul class="tag-list">${tags.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>`
+      ? `<ul class="tag-list">${tags.map((t) => `<li${colored ? ` data-color="${colorHash(t)}"` : ''}>${esc(t)}</li>`).join('')}</ul>`
       : '';
 
   // ===== Renderers =====
@@ -100,9 +107,9 @@
             <span class="timeline-period">${esc(it.period)}</span>
             ${it.location ? `<span class="timeline-location">${esc(it.location)}</span>` : ''}
           </div>
-          <h3>${esc(it.title)} <span class="company">@ ${esc(it.company)}</span></h3>
+          <h3>${esc(it.company)} <span class="company">— ${esc(it.title)}</span></h3>
           <p>${esc(it.description)}</p>
-          ${tagList(it.tags)}
+          ${tagList(it.tags, true)}
         </div>
       </li>
     `).join('');
@@ -135,7 +142,7 @@
         <div class="project-tag">${esc(it.category)}</div>
         <h3>${esc(it.title)}</h3>
         <p>${esc(it.description)}</p>
-        ${tagList(it.tags)}
+        ${tagList(it.tags, true)}
       </article>
     `).join('');
 
@@ -148,10 +155,10 @@
   const renderSkills = (s) => {
     const root = document.getElementById('skills-root');
     if (!root) return;
-    const groups = (s.groups || []).map((g) => `
-      <div class="skill-group">
+    const groups = (s.groups || []).map((g, i) => `
+      <div class="skill-group" data-color="${i % COLOR_COUNT}">
         <h3>${esc(g.name)}</h3>
-        <ul class="skill-tags">${(g.items || []).map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
+        <ul class="skill-tags">${(g.items || []).map((item) => `<li>${esc(item)}</li>`).join('')}</ul>
       </div>
     `).join('');
 
