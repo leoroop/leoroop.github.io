@@ -1,0 +1,69 @@
+{
+  "sectionNumber": "02",
+  "title": "Experience",
+  "subtitle": "Eight years across AI, embedded systems, and full-stack development.",
+  "items": [
+    {
+      "period": "Feb 2024 — Present",
+      "location": "La Spezia, Italy",
+      "title": "AI Engineer",
+      "company": "Globant",
+      "description": "Started as a Java Developer leading a sizable team on a demanding client engagement. After six successful months, I was tapped to drive Globant's experimental AI initiatives, building POCs that demonstrated the practical value of generative AI in process automation. I'm now a key technical reference in Italy for AI integration in enterprise automation projects.",
+      "tags": ["AWS", "GCP", "LangChain", "Neo4j", "Amazon Neptune", "pgvector", "Redis", "FastAPI", "Pydantic AI", "Spring Framework", "Spring State Machine", "Celery"]
+    },
+    {
+      "period": "Sep 2019 — Feb 2024",
+      "location": "Sarzana, Italy",
+      "title": "Software Engineer",
+      "company": "Lunitek srl",
+      "description": "Developed firmware and software for integrated seismic and structural monitoring systems. Programmed microcontrollers in C/C++ for power management and data acquisition, and built Python tooling on ObsPy for seismic analysis. Coordinated a 4-person team for a research project funded by the Tuscany Region.",
+      "tags": ["C", "C++", "Python", "ObsPy", "Microcontrollers", "GPS", "ADC", "Team Leadership"]
+    },
+    {
+      "period": "Nov 2018 — Aug 2019",
+      "location": "Parma, Italy",
+      "title": "Software Engineer",
+      "company": "Callegari Srl",
+      "description": "Designed and built application software for an ARM-based touchscreen device. Used C++/Qt/QML for the UI and core logic, OpenCV and GStreamer for image processing, and built a custom Linux distribution with the Yocto Project. Also produced prototype enclosures with a 3D printer.",
+      "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "3D Printing"]
+    },
+    {
+      "period": "Oct 2017 — Nov 2018",
+      "location": "Italy",
+      "title": "Software / Automation Engineer",
+      "company": "Rimar SRL",
+      "description": "Configured hardware and developed software for Siemens and Allen-Bradley PLCs and Fanuc industrial robots (with certification). Reviewed electrical schematics and commissioned automation lines on-site. Built small internal web tools to streamline project management.",
+      "tags": ["Siemens PLC", "Allen-Bradley", "Fanuc Robots", "HTML5", "jQuery", "Java"]
+    },
+    {
+      "period": "May 2017 — Oct 2017",
+      "location": "",
+      "title": "Junior Automation Engineer",
+      "company": "PSA Italy",
+      "description": "Developed and modified PLC software (Siemens, Allen-Bradley) to control machinery, adapted operator panel UIs to client requirements, and ran electrical and functional testing on completed builds.",
+      "tags": ["Siemens PLC", "Allen-Bradley", "HMI"]
+    },
+    {
+      "period": "Mar 2017 — May 2017",
+      "location": "Collecchio, Italy",
+      "title": "Web Developer",
+      "company": "Zucchetti Spa",
+      "description": "Worked on a web-based management system for workplace safety. Built server-side logic in Java and client-side behavior in JavaScript on proprietary frameworks, against SQL Server, PostgreSQL, and Oracle DB.",
+      "tags": ["Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB"]
+    },
+    {
+      "period": "Oct 2016 — Jun 2017",
+      "location": "Parma, Italy",
+      "title": "Full-Stack Developer (Part-time)",
+      "company": "Micratek",
+      "description": "Built a small home-PLC product end to end: server side on Java EE / Tomcat with PHP components, and a dynamic jQuery-based front-end making the device easily configurable by end users.",
+      "tags": ["Java EE", "Tomcat", "PHP", "HTML", "CSS", "jQuery"]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor's Degree in Computer, Electronic and Telecommunications Engineering",
+    "meta": "Università degli Studi di Parma · 2014 — 2017 · EQF Level 6",
+    "thesisLabel": "Thesis",
+    "thesis": "Design and implementation of the base joint for an anthropomorphic manipulator"
+  }
+}

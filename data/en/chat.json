@@ -1,0 +1,19 @@
+{
+  "sectionNumber": "01",
+  "title": "Ask me anything",
+  "subtitle": "A small AI assistant grounded on Leonardo's CV — ask about experience, projects, or skills.",
+  "welcomeMessage": "Hi! I'm a small AI assistant trained on Leonardo's CV. Ask me anything about his experience, projects, or skills.",
+  "placeholder": "Ask me about Leonardo…",
+  "sendLabel": "Send",
+  "disclaimerText": "AI-generated answers grounded on Leonardo's CV. May occasionally err — verify important details directly with him.",
+  "errorMessage": "Couldn't reach the AI service. Please try again in a moment.",
+  "notConfiguredTitle": "Chat not yet configured",
+  "notConfiguredText": "Set your LLM provider key in chat-config.json (in the project root) to enable the chat. See setup notes in the repo for Groq or Cloudflare Worker proxy options.",
+  "suggestions": [
+    "What's his experience with RAG?",
+    "Tell me about his embedded systems work",
+    "What languages does he speak?",
+    "What was his thesis about?"
+  ],
+  "systemPrompt": "You are a friendly assistant on Leonardo Bertazzolo's portfolio website. Answer the visitor's questions about Leonardo using ONLY the context below. If the answer isn't there, say so kindly and suggest what they could ask instead. Keep replies concise (2-4 sentences). Reply in the same language as the visitor's question.\n\nCONTEXT:\n{{context}}"
+}

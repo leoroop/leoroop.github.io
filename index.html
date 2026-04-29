@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo Bertazzolo — AI Engineer</title>
+  <meta name="description" content="Portfolio of Leonardo Bertazzolo, AI Engineer specializing in process automation, RAG systems, and full-stack development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="brand" id="brand">
+        <span class="brand-mark"></span>
+        <span class="brand-name"></span>
+      </a>
+      <nav class="nav-links" id="nav-links"></nav>
+      <div class="nav-controls">
+        <div class="lang-switcher" id="lang-switcher" role="group" aria-label="Language">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="it">IT</button>
+          <button type="button" data-lang="fr">FR</button>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container" id="hero-root"></div>
+    </section>
+
+    <section id="chat" class="section section-alt">
+      <div class="container" id="chat-root"></div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container" id="experience-root"></div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container" id="projects-root"></div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container" id="skills-root"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner" id="footer-root"></div>
+  </footer>
+
+  <script src="chat.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

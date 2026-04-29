@@ -1,0 +1,39 @@
+{
+  "sectionNumber": "04",
+  "title": "Competenze",
+  "subtitle": "Tecnologie con cui ho rilasciato lavoro in produzione.",
+  "groups": [
+    {
+      "name": "AI & Machine Learning",
+      "items": ["LangChain", "Pydantic AI", "Sistemi RAG", "Vector Database", "Graph RAG", "Prompt Engineering"]
+    },
+    {
+      "name": "Linguaggi",
+      "items": ["Python", "Java", "C", "C++", "JavaScript", "SQL"]
+    },
+    {
+      "name": "Backend & Framework",
+      "items": ["FastAPI", "Pydantic", "Spring Framework", "Spring State Machine", "SQLAlchemy", "Alembic", "Celery", "Java EE / Tomcat"]
+    },
+    {
+      "name": "Cloud & Infrastruttura",
+      "items": ["AWS", "GCP", "Linux", "Yocto Project"]
+    },
+    {
+      "name": "Database",
+      "items": ["PostgreSQL", "pgvector", "Redis", "Neo4j", "Amazon Neptune", "SQL Server", "Oracle DB"]
+    },
+    {
+      "name": "Embedded & Robotica",
+      "items": ["Microcontrollori", "Qt / QML", "OpenCV", "GStreamer", "ObsPy", "PLC Siemens / Allen-Bradley", "Robot Fanuc"]
+    },
+    {
+      "name": "Web",
+      "items": ["HTML5", "CSS", "jQuery", "PHP"]
+    },
+    {
+      "name": "Lingue Parlate",
+      "items": ["Italiano — Madrelingua", "Inglese — B2", "Francese — A2"]
+    }
+  ]
+}

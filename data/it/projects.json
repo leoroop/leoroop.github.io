@@ -1,0 +1,67 @@
+{
+  "sectionNumber": "03",
+  "title": "Progetti",
+  "subtitle": "Una selezione di lavori tra AI, sistemi embedded e automazione industriale.",
+  "items": [
+    {
+      "category": "AI · RAG",
+      "title": "POC di Automazione Processi con AI",
+      "description": "Serie di proof-of-concept sull'applicazione dell'AI generativa all'automazione dei processi aziendali. Hanno coperto RAG su dati enterprise, workflow agentici e retrieval potenziato da grafi.",
+      "tags": ["LangChain", "Pydantic AI", "Neo4j", "pgvector", "FastAPI"]
+    },
+    {
+      "category": "Backend",
+      "title": "Workflow Engine con Spring State Machine",
+      "description": "Progetto enterprise sperimentale costruito su Spring Framework con uso intensivo di Spring State Machine, per modellare workflow di business complessi e di lunga durata con transizioni di stato tracciabili.",
+      "tags": ["Java", "Spring", "Spring State Machine"]
+    },
+    {
+      "category": "Embedded · Scientifico",
+      "title": "Piattaforma di Monitoraggio Sismico e Strutturale",
+      "description": "Firmware e software di analisi per dispositivi integrati di monitoraggio sismico. C/C++ embedded per l'acquisizione dati (ADC, GPS) e strumenti Python/ObsPy — sia GUI sia CLI — per l'analisi sismica destinata ai clienti.",
+      "tags": ["C / C++", "Python", "ObsPy", "Microcontrollori"]
+    },
+    {
+      "category": "Embedded · Energia",
+      "title": "Caricabatterie Solare Smart per Imbarcazioni",
+      "description": "Caricabatterie a pannello solare intelligente progettato per imbarcazioni, con logica adattiva per massimizzare la raccolta di energia e proteggere la batteria in condizioni marine variabili.",
+      "tags": ["Embedded C", "Gestione Energia"]
+    },
+    {
+      "category": "Embedded · Geospaziale",
+      "title": "Stazione Base GPS",
+      "description": "Progettata e realizzata una stazione base GPS per posizionamento ad alta precisione, integrando ricevitori GNSS con firmware custom e un enclosure manutenibile.",
+      "tags": ["GNSS", "Embedded C", "Hardware"]
+    },
+    {
+      "category": "Embedded · UI",
+      "title": "Software per Dispositivo ARM Touchscreen",
+      "description": "Stack applicativo completo per un dispositivo ARM con touchscreen: interfaccia utente Qt/QML, elaborazione immagini OpenCV/GStreamer e una distribuzione Linux Yocto su misura per l'hardware.",
+      "tags": ["Qt", "QML", "OpenCV", "GStreamer", "Yocto"]
+    },
+    {
+      "category": "Web · SaaS",
+      "title": "Sistema di Gestione della Sicurezza sul Lavoro",
+      "description": "Contributo a una grande piattaforma web per la conformità sulla sicurezza sul lavoro, con logica server-side in Java e JavaScript lato client, su SQL Server, PostgreSQL e Oracle DB.",
+      "tags": ["Java", "JavaScript", "SQL"]
+    },
+    {
+      "category": "Automazione Industriale",
+      "title": "Automazione di Cella Robotica e PLC",
+      "description": "Configurazione hardware e sviluppo software per PLC Siemens / Allen-Bradley e robot industriali Fanuc. Collaudo e messa in servizio di linee di automazione presso vari clienti.",
+      "tags": ["Siemens", "Allen-Bradley", "Fanuc"]
+    },
+    {
+      "category": "IoT · Web",
+      "title": "PLC Domestico Configurabile",
+      "description": "Prodotto PLC compatto per domotica con interfaccia web di configurazione. Server in Java EE con componenti PHP, front-end dinamico jQuery pensato per utenti non tecnici.",
+      "tags": ["Java EE", "PHP", "jQuery"]
+    },
+    {
+      "category": "Robotica · Tesi",
+      "title": "Giunto Base di Manipolatore Antropomorfo",
+      "description": "Progetto di tesi triennale: progettazione e realizzazione end-to-end del giunto base di un manipolatore robotico antropomorfo, combinando design meccanico e logica di controllo.",
+      "tags": ["Progettazione Meccanica", "Teoria del Controllo"]
+    }
+  ]
+}

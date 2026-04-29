@@ -1,0 +1,69 @@
+{
+  "sectionNumber": "02",
+  "title": "Esperienza",
+  "subtitle": "Otto anni tra AI, sistemi embedded e sviluppo full-stack.",
+  "items": [
+    {
+      "period": "Feb 2024 — Presente",
+      "location": "La Spezia, Italia",
+      "title": "AI Engineer",
+      "company": "Globant",
+      "description": "Iniziato come Java Developer guidando un team di dimensioni significative su un progetto cliente impegnativo. Dopo sei mesi positivi sono stato scelto per portare avanti le iniziative AI sperimentali di Globant, sviluppando POC che hanno dimostrato il valore concreto dell'AI generativa nell'automazione dei processi. Oggi sono uno dei riferimenti tecnici in Italia per l'integrazione dell'AI nei progetti di automazione enterprise.",
+      "tags": ["AWS", "GCP", "LangChain", "Neo4j", "Amazon Neptune", "pgvector", "Redis", "FastAPI", "Pydantic AI", "Spring Framework", "Spring State Machine", "Celery"]
+    },
+    {
+      "period": "Set 2019 — Feb 2024",
+      "location": "Sarzana, Italia",
+      "title": "Software Engineer",
+      "company": "Lunitek srl",
+      "description": "Sviluppato firmware e software per sistemi integrati di monitoraggio sismico e strutturale. Programmati microcontrollori in C/C++ per gestione energetica e acquisizione dati, e sviluppati strumenti Python su ObsPy per l'analisi sismica. Ho coordinato un team di 4 persone per un progetto di ricerca finanziato dalla Regione Toscana.",
+      "tags": ["C", "C++", "Python", "ObsPy", "Microcontrollori", "GPS", "ADC", "Coordinamento Team"]
+    },
+    {
+      "period": "Nov 2018 — Ago 2019",
+      "location": "Parma, Italia",
+      "title": "Software Engineer",
+      "company": "Callegari Srl",
+      "description": "Progettato e sviluppato il software applicativo di un dispositivo touchscreen basato su ARM. Usato C++/Qt/QML per UI e logica core, OpenCV e GStreamer per l'elaborazione delle immagini, e creato una distribuzione Linux personalizzata con il Yocto Project. Realizzati anche enclosure prototipali con stampa 3D.",
+      "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "Stampa 3D"]
+    },
+    {
+      "period": "Ott 2017 — Nov 2018",
+      "location": "Italia",
+      "title": "Software / Automation Engineer",
+      "company": "Rimar SRL",
+      "description": "Configurato hardware e sviluppato software per PLC Siemens e Allen-Bradley e robot industriali Fanuc (con certificazione). Revisionati schemi elettrici e collaudate linee di automazione presso i clienti. Sviluppati piccoli strumenti web interni per snellire la gestione dei progetti.",
+      "tags": ["PLC Siemens", "Allen-Bradley", "Robot Fanuc", "HTML5", "jQuery", "Java"]
+    },
+    {
+      "period": "Mag 2017 — Ott 2017",
+      "location": "",
+      "title": "Junior Automation Engineer",
+      "company": "PSA Italy",
+      "description": "Sviluppato e modificato il software dei PLC (Siemens, Allen-Bradley) per il controllo dei macchinari, adattate le interfacce dei pannelli operatore alle richieste dei clienti, eseguiti collaudi elettrici e funzionali sui macchinari completati.",
+      "tags": ["PLC Siemens", "Allen-Bradley", "HMI"]
+    },
+    {
+      "period": "Mar 2017 — Mag 2017",
+      "location": "Collecchio, Italia",
+      "title": "Sviluppatore Web",
+      "company": "Zucchetti Spa",
+      "description": "Lavoro su una piattaforma web di gestione della sicurezza sul lavoro. Sviluppata logica server-side in Java e comportamento client-side in JavaScript su framework proprietari, con database SQL Server, PostgreSQL e Oracle DB.",
+      "tags": ["Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB"]
+    },
+    {
+      "period": "Ott 2016 — Giu 2017",
+      "location": "Parma, Italia",
+      "title": "Sviluppatore Full-Stack (Part-time)",
+      "company": "Micratek",
+      "description": "Sviluppato end-to-end un piccolo prodotto PLC per uso domestico: lato server in Java EE / Tomcat con componenti PHP, e front-end dinamico in jQuery pensato per essere configurato facilmente dall'utente finale.",
+      "tags": ["Java EE", "Tomcat", "PHP", "HTML", "CSS", "jQuery"]
+    }
+  ],
+  "education": {
+    "degree": "Laurea Triennale in Ingegneria Informatica, Elettronica e delle Telecomunicazioni",
+    "meta": "Università degli Studi di Parma · 2014 — 2017 · Livello EQF 6",
+    "thesisLabel": "Tesi",
+    "thesis": "Progettazione e realizzazione del giunto base di un manipolatore antropomorfo"
+  }
+}

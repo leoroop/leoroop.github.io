@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "title": "Loisirs",
+      "text": "En dehors du travail, j'aime lire de la science-fiction, jouer de la guitare et faire de la randonnée dans les Dolomites."
+    },
+    {
+      "title": "Voyages",
+      "text": "J'ai vécu brièvement à Lisbonne et je voyage souvent en Europe."
+    },
+    {
+      "title": "Centres d'intérêt",
+      "text": "J'aime bricoler avec le retro computing, l'électronique basse consommation et les projets de domotique."
+    },
+    {
+      "title": "Style de travail",
+      "text": "J'apprécie l'écriture claire, les petits commits réversibles et la livraison itérative plutôt que les sorties big-bang."
+    }
+  ]
+}

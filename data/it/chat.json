@@ -1,0 +1,19 @@
+{
+  "sectionNumber": "01",
+  "title": "Chiedimi quello che vuoi",
+  "subtitle": "Un piccolo assistente AI basato sul CV di Leonardo — chiedi di esperienze, progetti o competenze.",
+  "welcomeMessage": "Ciao! Sono un piccolo assistente AI addestrato sul CV di Leonardo. Chiedimi qualsiasi cosa sulla sua esperienza, progetti o competenze.",
+  "placeholder": "Chiedimi di Leonardo…",
+  "sendLabel": "Invia",
+  "disclaimerText": "Risposte generate dall'AI basate sul CV di Leonardo. A volte può sbagliare — verifica i dettagli importanti direttamente con lui.",
+  "errorMessage": "Impossibile contattare il servizio AI. Riprova tra un momento.",
+  "notConfiguredTitle": "Chat non ancora configurata",
+  "notConfiguredText": "Imposta la chiave del provider LLM in chat-config.json (nella radice del progetto) per abilitare la chat. Vedi le note di setup nel repo per le opzioni Groq o Cloudflare Worker proxy.",
+  "suggestions": [
+    "Che esperienza ha con il RAG?",
+    "Parlami del suo lavoro sui sistemi embedded",
+    "Che lingue parla?",
+    "Di cosa parlava la sua tesi?"
+  ],
+  "systemPrompt": "Sei un assistente cordiale sul sito portfolio di Leonardo Bertazzolo. Rispondi alle domande del visitatore su Leonardo usando SOLO il contesto qui sotto. Se la risposta non c'è, dillo gentilmente e suggerisci cosa potrebbe chiedere. Mantieni le risposte concise (2-4 frasi). Rispondi nella stessa lingua della domanda del visitatore.\n\nCONTESTO:\n{{context}}"
+}

@@ -1,0 +1,27 @@
+{
+  "brandInitials": "LB",
+  "brandName": "Leonardo Bertazzolo",
+  "photo": "profile.jpg",
+  "name": "Leonardo Bertazzolo",
+  "role": "AI Engineer",
+  "tagline": "je construis des systèmes intelligents qui automatisent le travail réel",
+  "lede": "Des microcontrôleurs et de l'automatisation industrielle aux systèmes RAG à grande échelle et à l'IA agentique : j'ai passé huit ans à transformer des exigences complexes en logiciels livrés, dans les domaines embarqué, backend et IA.",
+  "ctaPrimary": { "label": "Essayer le chat", "href": "#chat" },
+  "ctaSecondary": { "label": "Télécharger le CV", "href": "CV-Bertazzolo-20250918-EN.pdf" },
+  "location": "La Spezia, Italie",
+  "email": "leon.berta@gmail.com",
+  "githubUser": "leoroop",
+  "githubUrl": "https://github.com/leoroop",
+  "cvPath": "CV-Bertazzolo-20250918-EN.pdf",
+  "nav": {
+    "chat": "Chat",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "skills": "Compétences"
+  },
+  "footerLinks": [
+    { "label": "Email", "href": "mailto:leon.berta@gmail.com" },
+    { "label": "GitHub", "href": "https://github.com/leoroop", "external": true },
+    { "label": "CV (PDF)", "href": "CV-Bertazzolo-20250918-EN.pdf", "external": true }
+  ]
+}

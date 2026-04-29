@@ -1,0 +1,39 @@
+{
+  "sectionNumber": "04",
+  "title": "Skills",
+  "subtitle": "Technologies I've shipped production work with.",
+  "groups": [
+    {
+      "name": "AI & Machine Learning",
+      "items": ["LangChain", "Pydantic AI", "RAG Systems", "Vector Databases", "Graph RAG", "Prompt Engineering"]
+    },
+    {
+      "name": "Languages",
+      "items": ["Python", "Java", "C", "C++", "JavaScript", "SQL"]
+    },
+    {
+      "name": "Backend & Frameworks",
+      "items": ["FastAPI", "Pydantic", "Spring Framework", "Spring State Machine", "SQLAlchemy", "Alembic", "Celery", "Java EE / Tomcat"]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "items": ["AWS", "GCP", "Linux", "Yocto Project"]
+    },
+    {
+      "name": "Databases",
+      "items": ["PostgreSQL", "pgvector", "Redis", "Neo4j", "Amazon Neptune", "SQL Server", "Oracle DB"]
+    },
+    {
+      "name": "Embedded & Robotics",
+      "items": ["Microcontrollers", "Qt / QML", "OpenCV", "GStreamer", "ObsPy", "Siemens / Allen-Bradley PLC", "Fanuc Robots"]
+    },
+    {
+      "name": "Web",
+      "items": ["HTML5", "CSS", "jQuery", "PHP"]
+    },
+    {
+      "name": "Languages Spoken",
+      "items": ["Italian — Native", "English — B2", "French — A2"]
+    }
+  ]
+}

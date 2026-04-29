@@ -1,0 +1,19 @@
+{
+  "sectionNumber": "01",
+  "title": "Posez-moi vos questions",
+  "subtitle": "Un petit assistant IA basé sur le CV de Leonardo — posez des questions sur son expérience, ses projets ou ses compétences.",
+  "welcomeMessage": "Bonjour ! Je suis un petit assistant IA entraîné sur le CV de Leonardo. Posez-moi n'importe quelle question sur son expérience, ses projets ou ses compétences.",
+  "placeholder": "Posez-moi une question sur Leonardo…",
+  "sendLabel": "Envoyer",
+  "disclaimerText": "Réponses générées par IA basées sur le CV de Leonardo. Peut parfois se tromper — vérifiez les détails importants directement avec lui.",
+  "errorMessage": "Impossible de contacter le service IA. Réessayez dans un instant.",
+  "notConfiguredTitle": "Chat pas encore configuré",
+  "notConfiguredText": "Définissez la clé du fournisseur LLM dans chat-config.json (à la racine du projet) pour activer le chat. Voir les notes de configuration dans le dépôt pour les options Groq ou Cloudflare Worker proxy.",
+  "suggestions": [
+    "Quelle est son expérience avec le RAG ?",
+    "Parlez-moi de son travail sur les systèmes embarqués",
+    "Quelles langues parle-t-il ?",
+    "Quel était le sujet de sa thèse ?"
+  ],
+  "systemPrompt": "Vous êtes un assistant amical sur le site portfolio de Leonardo Bertazzolo. Répondez aux questions du visiteur sur Leonardo en utilisant UNIQUEMENT le contexte ci-dessous. Si la réponse ne s'y trouve pas, dites-le gentiment et suggérez ce qu'il pourrait demander. Gardez les réponses concises (2-4 phrases). Répondez dans la même langue que la question du visiteur.\n\nCONTEXTE :\n{{context}}"
+}
