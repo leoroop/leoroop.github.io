@@ -19,7 +19,7 @@
 // The worker forwards the JSON body verbatim to Groq's OpenAI-compatible
 // chat-completions endpoint and adds the Authorization header server-side.
 
-const ALLOWED_ORIGIN = 'https://example.github.io'; // <-- change me
+const ALLOWED_ORIGIN = 'https://leoroop.github.io';
 const UPSTREAM = 'https://api.groq.com/openai/v1/chat/completions';
 
 const corsHeaders = (origin) => ({

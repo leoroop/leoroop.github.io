@@ -1,11 +1,11 @@
 {
   "sectionNumber": "02",
   "title": "Expérience",
-  "subtitle": "Huit ans entre ingénierie IA, systèmes embarqués et automatisation industrielle.",
+  "subtitle": "Dix ans entre ingénierie IA, systèmes embarqués et automatisation industrielle.",
   "items": [
     {
       "period": "Févr. 2024 — Présent",
-      "location": "La Spezia, Italie",
+      "location": "Italie",
       "title": "AI Engineer",
       "company": "Globant",
       "description": "Dirigé une équipe backend de 8 personnes sur un projet client à enjeux élevés, obtenant le renouvellement du contrat. Transition vers la direction de la practice d'ingénierie IA de Globant Italie : conception et développement d'applications LLM en production — pipelines d'orchestration multi-agents, systèmes RAG avec retrieval graph-based (Neo4j, Amazon Neptune, pgvector), et automatisation de processus par IA générative — déployés sur AWS et GCP. Principal référent technique sur l'intégration IA pour l'opération italienne.",
@@ -13,7 +13,7 @@
     },
     {
       "period": "Sept. 2019 — Févr. 2024",
-      "location": "Sarzana, Italie",
+      "location": "Italie",
       "title": "Software Engineer",
       "company": "Lunitek srl",
       "description": "Responsable de l'ensemble de la stack de développement pour des systèmes de surveillance sismique et de santé structurelle — du firmware bare-metal en C/C++ sur microcontrôleurs (gestion d'énergie, synchronisation GPS, pipelines ADC) aux outils d'analyse de signal en Python sur ObsPy. Dirigé une équipe de 4 ingénieurs sur Progetto Atlante, initiative de recherche cofinancée par l'UE (POR FESR 2014-2020, Région Toscane) en partenariat avec le CNR-INO et l'Université de Florence, livrant un prototype de surveillance à distance des vibrations structurelles avec sensibilité sub-micrométrique par holographie numérique infrarouge.",
@@ -21,7 +21,7 @@
     },
     {
       "period": "Nov. 2018 — Août 2019",
-      "location": "Parme, Italie",
+      "location": "Italie",
       "title": "Software Engineer",
       "company": "Callegari Srl",
       "description": "Seul ingénieur logiciel sur le Soft FX Skin Analyzer — appareil diagnostique tactile basé sur ARM aujourd'hui vendu commercialement à des cliniques esthétiques professionnelles dans le monde entier. Responsabilité complète de la couche applicative : interface en C++/Qt/QML, pipelines d'acquisition et traitement d'image en temps réel avec OpenCV et GStreamer (sondes à 100× et 400×), stack de connectivité sans fil (WiFi, Bluetooth, Ethernet) et génération de rapports. Développé une distribution Linux personnalisée avec Yocto Project adaptée aux contraintes d'empreinte et de sécurité du produit. Prototypage rapide des boîtiers par impression 3D pour accélérer les cycles d'itération matérielle.",
@@ -37,7 +37,7 @@
     },
     {
       "period": "Oct. 2016 — Mai 2017",
-      "location": "Collecchio, Italie",
+      "location": "Italie",
       "title": "Développeur Web",
       "company": "Zucchetti Spa",
       "description": "Développé de bout en bout un produit domotique : backend Java EE/Tomcat, modules PHP et frontend jQuery rendant un système PLC domestique configurable par des utilisateurs non techniques. Contribué au développement backend (Java) et frontend (JavaScript) d'une plateforme web de gestion de la sécurité au travail, avec intégration SQL Server, PostgreSQL et Oracle DB.",

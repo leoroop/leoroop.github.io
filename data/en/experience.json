@@ -1,11 +1,11 @@
 {
   "sectionNumber": "02",
   "title": "Experience",
-  "subtitle": "Eight years across AI engineering, embedded systems, and industrial automation.",
+  "subtitle": "Ten years across AI engineering, embedded systems, and industrial automation.",
   "items": [
     {
       "period": "Feb 2024 — Present",
-      "location": "La Spezia, Italy",
+      "location": "Italy",
       "title": "AI Engineer",
       "company": "Globant",
       "description": "Led an 8-person backend team delivering enterprise Java features on a high-stakes client engagement, earning a contract renewal. Transitioned to spearhead Globant Italy's AI engineering practice: architecting and building production LLM applications — multi-agent orchestration pipelines, RAG systems with graph-based retrieval (Neo4j, Amazon Neptune, pgvector), and generative AI–powered process automation — deployed on AWS and GCP. Primary technical authority on AI integration for the Italian operation.",
@@ -13,16 +13,16 @@
     },
     {
       "period": "Sep 2019 — Feb 2024",
-      "location": "Sarzana, Italy",
-      "title": "Software Engineer",
+      "location": "Italy",
+      "title": "Senior Software Designer",
       "company": "Lunitek srl",
       "description": "Owned the full development stack for seismic and structural health monitoring systems — from bare-metal C/C++ firmware on microcontrollers (power management, GPS sync, ADC pipelines) to Python signal-processing tooling built on ObsPy. Led a 4-person engineering team on Progetto Atlante, an EU-funded research initiative (POR FESR 2014-2020, Tuscany Region) in partnership with CNR-INO and the University of Florence, delivering a remote structural vibration monitoring prototype with sub-micrometric sensitivity via infrared digital holography.",
       "tags": ["C", "C++", "Python", "ObsPy", "Microcontrollers", "GPS", "ADC", "Team Leadership", "EU Research Projects"]
     },
     {
       "period": "Nov 2018 — Aug 2019",
-      "location": "Parma, Italy",
-      "title": "Software Engineer",
+      "location": "Italy",
+      "title": "Lead Software Engineer",
       "company": "Callegari Srl",
       "description": "Sole software engineer on the Soft FX Skin Analyzer — an ARM-based touchscreen diagnostic device now commercially sold to professional aesthetic clinics worldwide. Took full ownership of the application layer: C++/Qt/QML UI, real-time image acquisition and processing pipelines with OpenCV and GStreamer (100× and 400× magnification probes), wireless connectivity stack (WiFi, Bluetooth, Ethernet), and report generation. Built a custom Yocto Linux distribution tailored to the product's footprint and security requirements. Rapid-prototyped device enclosures via 3D printing to accelerate hardware iteration cycles.",
       "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "Embedded ARM", "3D Printing"]
@@ -37,7 +37,7 @@
     },
     {
       "period": "Oct 2016 — May 2017",
-      "location": "Collecchio, Italy",
+      "location": "Italy",
       "title": "Web Developer",
       "company": "Zucchetti Spa",
       "description": "Built a home-automation product end to end while studying: Java EE/Tomcat backend, PHP modules, and a jQuery frontend that made a PLC-based home system configurable by non-technical end users. Contributed backend (Java) and frontend (JavaScript) development to a web-based workplace safety management platform, integrating against SQL Server, PostgreSQL, and Oracle DB.",

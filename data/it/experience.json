@@ -1,11 +1,11 @@
 {
   "sectionNumber": "02",
   "title": "Esperienza",
-  "subtitle": "Otto anni tra AI engineering, sistemi embedded e automazione industriale.",
+  "subtitle": "Dieci anni tra AI engineering, sistemi embedded e automazione industriale.",
   "items": [
     {
       "period": "Feb 2024 — Presente",
-      "location": "La Spezia, Italia",
+      "location": "Italia",
       "title": "AI Engineer",
       "company": "Globant",
       "description": "Guidato un team backend di 8 persone su un progetto cliente ad alto impatto, ottenendo il rinnovo del contratto. Passato poi a guidare la practice di AI engineering di Globant Italia: progettazione e sviluppo di applicazioni LLM in produzione — pipeline di orchestrazione multi-agent, sistemi RAG con retrieval graph-based (Neo4j, Amazon Neptune, pgvector), e automazione di processi con AI generativa — su AWS e GCP. Principale riferimento tecnico sull'integrazione AI per l'operazione italiana.",
@@ -13,7 +13,7 @@
     },
     {
       "period": "Set 2019 — Feb 2024",
-      "location": "Sarzana, Italia",
+      "location": "Italia",
       "title": "Software Engineer",
       "company": "Lunitek srl",
       "description": "Responsabile dell'intero stack di sviluppo per sistemi di monitoraggio sismico e della salute strutturale — dal firmware bare-metal in C/C++ su microcontrollori (gestione energetica, sincronizzazione GPS, pipeline ADC) agli strumenti di analisi del segnale in Python su ObsPy. Guidato un team di 4 ingegneri sul Progetto Atlante, iniziativa di ricerca finanziata dall'UE (POR FESR 2014-2020, Regione Toscana) in partnership con CNR-INO e l'Università di Firenze, sviluppando un prototipo di monitoraggio remoto delle vibrazioni strutturali con sensibilità sub-micrometrica tramite olografia digitale nell'infrarosso.",
@@ -21,7 +21,7 @@
     },
     {
       "period": "Nov 2018 — Ago 2019",
-      "location": "Parma, Italia",
+      "location": "Italia",
       "title": "Software Engineer",
       "company": "Callegari Srl",
       "description": "Unico software engineer sul Soft FX Skin Analyzer — dispositivo diagnostico touchscreen basato su ARM oggi venduto commercialmente a cliniche estetiche professionali in tutto il mondo. Piena responsabilità del livello applicativo: UI in C++/Qt/QML, pipeline di acquisizione ed elaborazione immagini in tempo reale con OpenCV e GStreamer (sonde a 100× e 400×), stack di connettività wireless (WiFi, Bluetooth, Ethernet) e generazione di report. Sviluppata una distribuzione Linux personalizzata con Yocto Project adatta ai requisiti di footprint e sicurezza del prodotto. Prototipati rapidamente gli enclosure tramite stampa 3D per accelerare i cicli di iterazione hardware.",
@@ -37,7 +37,7 @@
     },
     {
       "period": "Ott 2016 — Mag 2017",
-      "location": "Collecchio, Italia",
+      "location": "Italia",
       "title": "Sviluppatore Web",
       "company": "Zucchetti Spa",
       "description": "Sviluppato end-to-end un prodotto home-automation: backend Java EE/Tomcat, moduli PHP e frontend jQuery che rendeva un sistema PLC domestico configurabile da utenti non tecnici. Contribuito allo sviluppo backend (Java) e frontend (JavaScript) di una piattaforma web di gestione della sicurezza sul lavoro, con integrazione verso SQL Server, PostgreSQL e Oracle DB.",
