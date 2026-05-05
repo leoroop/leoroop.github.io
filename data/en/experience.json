@@ -1,63 +1,47 @@
 {
   "sectionNumber": "02",
   "title": "Experience",
-  "subtitle": "Eight years across AI, embedded systems, and full-stack development.",
+  "subtitle": "Eight years across AI engineering, embedded systems, and industrial automation.",
   "items": [
     {
       "period": "Feb 2024 — Present",
       "location": "La Spezia, Italy",
       "title": "AI Engineer",
       "company": "Globant",
-      "description": "Started as a Java Developer leading a sizable team on a demanding client engagement. After six successful months, I was tapped to drive Globant's experimental AI initiatives, building POCs that demonstrated the practical value of generative AI in process automation. I'm now a key technical reference in Italy for AI integration in enterprise automation projects.",
-      "tags": ["AWS", "GCP", "LangChain", "Neo4j", "Amazon Neptune", "pgvector", "Redis", "FastAPI", "Pydantic AI", "Spring Framework", "Spring State Machine", "Celery"]
+      "description": "Led an 8-person backend team delivering enterprise Java features on a high-stakes client engagement, earning a contract renewal. Transitioned to spearhead Globant Italy's AI engineering practice: architecting and building production LLM applications — multi-agent orchestration pipelines, RAG systems with graph-based retrieval (Neo4j, Amazon Neptune, pgvector), and generative AI–powered process automation — deployed on AWS and GCP. Primary technical authority on AI integration for the Italian operation.",
+      "tags": ["LangChain", "Pydantic AI", "RAG", "Multi-Agent", "Neo4j", "Amazon Neptune", "pgvector", "Redis", "FastAPI", "AWS", "GCP", "Spring Framework", "Spring State Machine", "Celery"]
     },
     {
       "period": "Sep 2019 — Feb 2024",
       "location": "Sarzana, Italy",
       "title": "Software Engineer",
       "company": "Lunitek srl",
-      "description": "Developed firmware and software for integrated seismic and structural monitoring systems. Programmed microcontrollers in C/C++ for power management and data acquisition, and built Python tooling on ObsPy for seismic analysis. Coordinated a 4-person team for a research project funded by the Tuscany Region.",
-      "tags": ["C", "C++", "Python", "ObsPy", "Microcontrollers", "GPS", "ADC", "Team Leadership"]
+      "description": "Owned the full development stack for seismic and structural health monitoring systems — from bare-metal C/C++ firmware on microcontrollers (power management, GPS sync, ADC pipelines) to Python signal-processing tooling built on ObsPy. Led a 4-person engineering team on Progetto Atlante, an EU-funded research initiative (POR FESR 2014-2020, Tuscany Region) in partnership with CNR-INO and the University of Florence, delivering a remote structural vibration monitoring prototype with sub-micrometric sensitivity via infrared digital holography.",
+      "tags": ["C", "C++", "Python", "ObsPy", "Microcontrollers", "GPS", "ADC", "Team Leadership", "EU Research Projects"]
     },
     {
       "period": "Nov 2018 — Aug 2019",
       "location": "Parma, Italy",
       "title": "Software Engineer",
       "company": "Callegari Srl",
-      "description": "Designed and built application software for an ARM-based touchscreen device. Used C++/Qt/QML for the UI and core logic, OpenCV and GStreamer for image processing, and built a custom Linux distribution with the Yocto Project. Also produced prototype enclosures with a 3D printer.",
-      "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "3D Printing"]
+      "description": "Sole software engineer on the Soft FX Skin Analyzer — an ARM-based touchscreen diagnostic device now commercially sold to professional aesthetic clinics worldwide. Took full ownership of the application layer: C++/Qt/QML UI, real-time image acquisition and processing pipelines with OpenCV and GStreamer (100× and 400× magnification probes), wireless connectivity stack (WiFi, Bluetooth, Ethernet), and report generation. Built a custom Yocto Linux distribution tailored to the product's footprint and security requirements. Rapid-prototyped device enclosures via 3D printing to accelerate hardware iteration cycles.",
+      "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "Embedded ARM", "3D Printing"]
     },
     {
-      "period": "Oct 2017 — Nov 2018",
+      "period": "May 2017 — Nov 2018",
       "location": "Italy",
       "title": "Software / Automation Engineer",
       "company": "Rimar SRL",
-      "description": "Configured hardware and developed software for Siemens and Allen-Bradley PLCs and Fanuc industrial robots (with certification). Reviewed electrical schematics and commissioned automation lines on-site. Built small internal web tools to streamline project management.",
-      "tags": ["Siemens PLC", "Allen-Bradley", "Fanuc Robots", "HTML5", "jQuery", "Java"]
+      "description": "Developed and modified PLC software (Siemens, Allen-Bradley), adapted HMI operator interfaces and integrated Fanuc robotic systems (Fanuc-certified) — from electrical schematic review through on-site integration and acceptance testing. Took direct field responsibility for system commissioning at customer sites. Developed internal web tooling that reduced manual project tracking overhead across the engineering team.",
+      "tags": ["Siemens PLC", "Allen-Bradley", "Fanuc Robots", "Industrial Automation", "HTML5", "jQuery", "Java"]
     },
     {
-      "period": "May 2017 — Oct 2017",
-      "location": "",
-      "title": "Junior Automation Engineer",
-      "company": "PSA Italy",
-      "description": "Developed and modified PLC software (Siemens, Allen-Bradley) to control machinery, adapted operator panel UIs to client requirements, and ran electrical and functional testing on completed builds.",
-      "tags": ["Siemens PLC", "Allen-Bradley", "HMI"]
-    },
-    {
-      "period": "Mar 2017 — May 2017",
+      "period": "Oct 2016 — May 2017",
       "location": "Collecchio, Italy",
       "title": "Web Developer",
       "company": "Zucchetti Spa",
-      "description": "Worked on a web-based management system for workplace safety. Built server-side logic in Java and client-side behavior in JavaScript on proprietary frameworks, against SQL Server, PostgreSQL, and Oracle DB.",
+      "description": "Built a home-automation product end to end while studying: Java EE/Tomcat backend, PHP modules, and a jQuery frontend that made a PLC-based home system configurable by non-technical end users. Contributed backend (Java) and frontend (JavaScript) development to a web-based workplace safety management platform, integrating against SQL Server, PostgreSQL, and Oracle DB.",
       "tags": ["Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB"]
-    },
-    {
-      "period": "Oct 2016 — Jun 2017",
-      "location": "Parma, Italy",
-      "title": "Full-Stack Developer (Part-time)",
-      "company": "Micratek",
-      "description": "Built a small home-PLC product end to end: server side on Java EE / Tomcat with PHP components, and a dynamic jQuery-based front-end making the device easily configurable by end users.",
-      "tags": ["Java EE", "Tomcat", "PHP", "HTML", "CSS", "jQuery"]
     }
   ],
   "education": {

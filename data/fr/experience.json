@@ -1,63 +1,47 @@
 {
   "sectionNumber": "02",
   "title": "Expérience",
-  "subtitle": "Huit ans entre IA, systèmes embarqués et développement full-stack.",
+  "subtitle": "Huit ans entre ingénierie IA, systèmes embarqués et automatisation industrielle.",
   "items": [
     {
       "period": "Févr. 2024 — Présent",
       "location": "La Spezia, Italie",
       "title": "AI Engineer",
       "company": "Globant",
-      "description": "Débuté comme Java Developer en dirigeant une équipe de taille conséquente sur un engagement client exigeant. Après six mois positifs, j'ai été choisi pour porter les initiatives expérimentales d'IA de Globant, en développant des POC qui ont démontré la valeur concrète de l'IA générative dans l'automatisation des processus. Je suis aujourd'hui une référence technique en Italie pour l'intégration de l'IA dans les projets d'automatisation d'entreprise.",
-      "tags": ["AWS", "GCP", "LangChain", "Neo4j", "Amazon Neptune", "pgvector", "Redis", "FastAPI", "Pydantic AI", "Spring Framework", "Spring State Machine", "Celery"]
+      "description": "Dirigé une équipe backend de 8 personnes sur un projet client à enjeux élevés, obtenant le renouvellement du contrat. Transition vers la direction de la practice d'ingénierie IA de Globant Italie : conception et développement d'applications LLM en production — pipelines d'orchestration multi-agents, systèmes RAG avec retrieval graph-based (Neo4j, Amazon Neptune, pgvector), et automatisation de processus par IA générative — déployés sur AWS et GCP. Principal référent technique sur l'intégration IA pour l'opération italienne.",
+      "tags": ["LangChain", "Pydantic AI", "RAG", "Multi-Agent", "Neo4j", "Amazon Neptune", "pgvector", "Redis", "FastAPI", "AWS", "GCP", "Spring Framework", "Spring State Machine", "Celery"]
     },
     {
       "period": "Sept. 2019 — Févr. 2024",
       "location": "Sarzana, Italie",
       "title": "Software Engineer",
       "company": "Lunitek srl",
-      "description": "Développement de firmware et de logiciels pour des systèmes intégrés de surveillance sismique et structurelle. Programmation de microcontrôleurs en C/C++ pour la gestion d'énergie et l'acquisition de données, et développement d'outils Python basés sur ObsPy pour l'analyse sismique. Coordination d'une équipe de 4 personnes sur un projet de recherche financé par la Région Toscane.",
-      "tags": ["C", "C++", "Python", "ObsPy", "Microcontrôleurs", "GPS", "ADC", "Coordination d'équipe"]
+      "description": "Responsable de l'ensemble de la stack de développement pour des systèmes de surveillance sismique et de santé structurelle — du firmware bare-metal en C/C++ sur microcontrôleurs (gestion d'énergie, synchronisation GPS, pipelines ADC) aux outils d'analyse de signal en Python sur ObsPy. Dirigé une équipe de 4 ingénieurs sur Progetto Atlante, initiative de recherche cofinancée par l'UE (POR FESR 2014-2020, Région Toscane) en partenariat avec le CNR-INO et l'Université de Florence, livrant un prototype de surveillance à distance des vibrations structurelles avec sensibilité sub-micrométrique par holographie numérique infrarouge.",
+      "tags": ["C", "C++", "Python", "ObsPy", "Microcontrôleurs", "GPS", "ADC", "Leadership d'équipe", "Projets de Recherche EU"]
     },
     {
       "period": "Nov. 2018 — Août 2019",
       "location": "Parme, Italie",
       "title": "Software Engineer",
       "company": "Callegari Srl",
-      "description": "Conception et développement du logiciel applicatif d'un appareil tactile basé sur ARM. Utilisation de C++/Qt/QML pour l'interface et la logique principale, OpenCV et GStreamer pour le traitement d'image, et création d'une distribution Linux personnalisée avec le Yocto Project. Réalisation de boîtiers prototypes par impression 3D.",
-      "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "Impression 3D"]
+      "description": "Seul ingénieur logiciel sur le Soft FX Skin Analyzer — appareil diagnostique tactile basé sur ARM aujourd'hui vendu commercialement à des cliniques esthétiques professionnelles dans le monde entier. Responsabilité complète de la couche applicative : interface en C++/Qt/QML, pipelines d'acquisition et traitement d'image en temps réel avec OpenCV et GStreamer (sondes à 100× et 400×), stack de connectivité sans fil (WiFi, Bluetooth, Ethernet) et génération de rapports. Développé une distribution Linux personnalisée avec Yocto Project adaptée aux contraintes d'empreinte et de sécurité du produit. Prototypage rapide des boîtiers par impression 3D pour accélérer les cycles d'itération matérielle.",
+      "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "Embedded ARM", "Impression 3D"]
     },
     {
-      "period": "Oct. 2017 — Nov. 2018",
+      "period": "Mai 2017 — Nov. 2018",
       "location": "Italie",
       "title": "Software / Automation Engineer",
       "company": "Rimar SRL",
-      "description": "Configuration matérielle et développement logiciel pour des automates Siemens et Allen-Bradley et des robots industriels Fanuc (avec certification). Examen des schémas électriques et mise en service de lignes d'automatisation chez les clients. Développement de petits outils web internes pour rationaliser la gestion de projet.",
-      "tags": ["Automate Siemens", "Allen-Bradley", "Robots Fanuc", "HTML5", "jQuery", "Java"]
+      "description": "Programmé et mis en service des cellules d'automatisation industrielle — automates Siemens et Allen-Bradley et systèmes robotiques Fanuc (certifié Fanuc) — de la revue des schémas électriques jusqu'à l'intégration et les essais de réception chez les clients. Responsabilité directe sur le terrain pour la mise en service des systèmes. Développé des outils web internes ayant réduit la charge de suivi manuel des projets au sein de l'équipe d'ingénierie.",
+      "tags": ["Automate Siemens", "Allen-Bradley", "Robots Fanuc", "Automatisation Industrielle", "HTML5", "jQuery", "Java"]
     },
     {
-      "period": "Mai 2017 — Oct. 2017",
-      "location": "",
-      "title": "Junior Automation Engineer",
-      "company": "PSA Italy",
-      "description": "Développement et modification du logiciel des automates (Siemens, Allen-Bradley) pour le contrôle des machines, adaptation des interfaces des pupitres opérateur aux exigences clients, et réalisation des tests électriques et fonctionnels sur les machines achevées.",
-      "tags": ["Automate Siemens", "Allen-Bradley", "IHM"]
-    },
-    {
-      "period": "Mars 2017 — Mai 2017",
+      "period": "Oct. 2016 — Mai 2017",
       "location": "Collecchio, Italie",
       "title": "Développeur Web",
       "company": "Zucchetti Spa",
-      "description": "Travail sur une plateforme web de gestion de la sécurité au travail. Développement de la logique côté serveur en Java et du comportement côté client en JavaScript sur des frameworks propriétaires, avec SQL Server, PostgreSQL et Oracle DB.",
-      "tags": ["Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB"]
-    },
-    {
-      "period": "Oct. 2016 — Juin 2017",
-      "location": "Parme, Italie",
-      "title": "Développeur Full-Stack (Temps partiel)",
-      "company": "Micratek",
-      "description": "Développement de bout en bout d'un petit produit automate domestique : côté serveur en Java EE / Tomcat avec composants PHP, et front-end dynamique en jQuery conçu pour être configuré facilement par l'utilisateur final.",
-      "tags": ["Java EE", "Tomcat", "PHP", "HTML", "CSS", "jQuery"]
+      "description": "Développé de bout en bout un produit domotique : backend Java EE/Tomcat, modules PHP et frontend jQuery rendant un système PLC domestique configurable par des utilisateurs non techniques. Contribué au développement backend (Java) et frontend (JavaScript) d'une plateforme web de gestion de la sécurité au travail, avec intégration SQL Server, PostgreSQL et Oracle DB.",
+      "tags": ["Java EE", "Tomcat", "PHP", "Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB", "jQuery"]
     }
   ],
   "education": {

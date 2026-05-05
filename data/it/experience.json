@@ -1,63 +1,47 @@
 {
   "sectionNumber": "02",
   "title": "Esperienza",
-  "subtitle": "Otto anni tra AI, sistemi embedded e sviluppo full-stack.",
+  "subtitle": "Otto anni tra AI engineering, sistemi embedded e automazione industriale.",
   "items": [
     {
       "period": "Feb 2024 — Presente",
       "location": "La Spezia, Italia",
       "title": "AI Engineer",
       "company": "Globant",
-      "description": "Iniziato come Java Developer guidando un team di dimensioni significative su un progetto cliente impegnativo. Dopo sei mesi positivi sono stato scelto per portare avanti le iniziative AI sperimentali di Globant, sviluppando POC che hanno dimostrato il valore concreto dell'AI generativa nell'automazione dei processi. Oggi sono uno dei riferimenti tecnici in Italia per l'integrazione dell'AI nei progetti di automazione enterprise.",
-      "tags": ["AWS", "GCP", "LangChain", "Neo4j", "Amazon Neptune", "pgvector", "Redis", "FastAPI", "Pydantic AI", "Spring Framework", "Spring State Machine", "Celery"]
+      "description": "Guidato un team backend di 8 persone su un progetto cliente ad alto impatto, ottenendo il rinnovo del contratto. Passato poi a guidare la practice di AI engineering di Globant Italia: progettazione e sviluppo di applicazioni LLM in produzione — pipeline di orchestrazione multi-agent, sistemi RAG con retrieval graph-based (Neo4j, Amazon Neptune, pgvector), e automazione di processi con AI generativa — su AWS e GCP. Principale riferimento tecnico sull'integrazione AI per l'operazione italiana.",
+      "tags": ["LangChain", "Pydantic AI", "RAG", "Multi-Agent", "Neo4j", "Amazon Neptune", "pgvector", "Redis", "FastAPI", "AWS", "GCP", "Spring Framework", "Spring State Machine", "Celery"]
     },
     {
       "period": "Set 2019 — Feb 2024",
       "location": "Sarzana, Italia",
       "title": "Software Engineer",
       "company": "Lunitek srl",
-      "description": "Sviluppato firmware e software per sistemi integrati di monitoraggio sismico e strutturale. Programmati microcontrollori in C/C++ per gestione energetica e acquisizione dati, e sviluppati strumenti Python su ObsPy per l'analisi sismica. Ho coordinato un team di 4 persone per un progetto di ricerca finanziato dalla Regione Toscana.",
-      "tags": ["C", "C++", "Python", "ObsPy", "Microcontrollori", "GPS", "ADC", "Coordinamento Team"]
+      "description": "Responsabile dell'intero stack di sviluppo per sistemi di monitoraggio sismico e della salute strutturale — dal firmware bare-metal in C/C++ su microcontrollori (gestione energetica, sincronizzazione GPS, pipeline ADC) agli strumenti di analisi del segnale in Python su ObsPy. Guidato un team di 4 ingegneri sul Progetto Atlante, iniziativa di ricerca finanziata dall'UE (POR FESR 2014-2020, Regione Toscana) in partnership con CNR-INO e l'Università di Firenze, sviluppando un prototipo di monitoraggio remoto delle vibrazioni strutturali con sensibilità sub-micrometrica tramite olografia digitale nell'infrarosso.",
+      "tags": ["C", "C++", "Python", "ObsPy", "Microcontrollori", "GPS", "ADC", "Team Leadership", "Progetti di Ricerca EU"]
     },
     {
       "period": "Nov 2018 — Ago 2019",
       "location": "Parma, Italia",
       "title": "Software Engineer",
       "company": "Callegari Srl",
-      "description": "Progettato e sviluppato il software applicativo di un dispositivo touchscreen basato su ARM. Usato C++/Qt/QML per UI e logica core, OpenCV e GStreamer per l'elaborazione delle immagini, e creato una distribuzione Linux personalizzata con il Yocto Project. Realizzati anche enclosure prototipali con stampa 3D.",
-      "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "Stampa 3D"]
+      "description": "Unico software engineer sul Soft FX Skin Analyzer — dispositivo diagnostico touchscreen basato su ARM oggi venduto commercialmente a cliniche estetiche professionali in tutto il mondo. Piena responsabilità del livello applicativo: UI in C++/Qt/QML, pipeline di acquisizione ed elaborazione immagini in tempo reale con OpenCV e GStreamer (sonde a 100× e 400×), stack di connettività wireless (WiFi, Bluetooth, Ethernet) e generazione di report. Sviluppata una distribuzione Linux personalizzata con Yocto Project adatta ai requisiti di footprint e sicurezza del prodotto. Prototipati rapidamente gli enclosure tramite stampa 3D per accelerare i cicli di iterazione hardware.",
+      "tags": ["C++", "Qt", "QML", "OpenCV", "GStreamer", "Python", "Yocto Project", "Linux", "Embedded ARM", "Stampa 3D"]
     },
     {
-      "period": "Ott 2017 — Nov 2018",
+      "period": "Mag 2017 — Nov 2018",
       "location": "Italia",
       "title": "Software / Automation Engineer",
       "company": "Rimar SRL",
-      "description": "Configurato hardware e sviluppato software per PLC Siemens e Allen-Bradley e robot industriali Fanuc (con certificazione). Revisionati schemi elettrici e collaudate linee di automazione presso i clienti. Sviluppati piccoli strumenti web interni per snellire la gestione dei progetti.",
-      "tags": ["PLC Siemens", "Allen-Bradley", "Robot Fanuc", "HTML5", "jQuery", "Java"]
+      "description": "Programmato e collaudato celle di automazione industriale — PLC Siemens e Allen-Bradley e sistemi robotici Fanuc (certificazione Fanuc) — dalla revisione degli schemi elettrici fino all'integrazione e al collaudo in campo presso i clienti. Responsabilità diretta sul campo per la messa in servizio dei sistemi. Sviluppati strumenti web interni che hanno ridotto il carico di gestione manuale dei progetti per il team di ingegneria.",
+      "tags": ["PLC Siemens", "Allen-Bradley", "Robot Fanuc", "Automazione Industriale", "HTML5", "jQuery", "Java"]
     },
     {
-      "period": "Mag 2017 — Ott 2017",
-      "location": "",
-      "title": "Junior Automation Engineer",
-      "company": "PSA Italy",
-      "description": "Sviluppato e modificato il software dei PLC (Siemens, Allen-Bradley) per il controllo dei macchinari, adattate le interfacce dei pannelli operatore alle richieste dei clienti, eseguiti collaudi elettrici e funzionali sui macchinari completati.",
-      "tags": ["PLC Siemens", "Allen-Bradley", "HMI"]
-    },
-    {
-      "period": "Mar 2017 — Mag 2017",
+      "period": "Ott 2016 — Mag 2017",
       "location": "Collecchio, Italia",
       "title": "Sviluppatore Web",
       "company": "Zucchetti Spa",
-      "description": "Lavoro su una piattaforma web di gestione della sicurezza sul lavoro. Sviluppata logica server-side in Java e comportamento client-side in JavaScript su framework proprietari, con database SQL Server, PostgreSQL e Oracle DB.",
-      "tags": ["Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB"]
-    },
-    {
-      "period": "Ott 2016 — Giu 2017",
-      "location": "Parma, Italia",
-      "title": "Sviluppatore Full-Stack (Part-time)",
-      "company": "Micratek",
-      "description": "Sviluppato end-to-end un piccolo prodotto PLC per uso domestico: lato server in Java EE / Tomcat con componenti PHP, e front-end dinamico in jQuery pensato per essere configurato facilmente dall'utente finale.",
-      "tags": ["Java EE", "Tomcat", "PHP", "HTML", "CSS", "jQuery"]
+      "description": "Sviluppato end-to-end un prodotto home-automation: backend Java EE/Tomcat, moduli PHP e frontend jQuery che rendeva un sistema PLC domestico configurabile da utenti non tecnici. Contribuito allo sviluppo backend (Java) e frontend (JavaScript) di una piattaforma web di gestione della sicurezza sul lavoro, con integrazione verso SQL Server, PostgreSQL e Oracle DB.",
+      "tags": ["Java EE", "Tomcat", "PHP", "Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB", "jQuery"]
     }
   ],
   "education": {
