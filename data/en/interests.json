@@ -1,0 +1,27 @@
+{
+  "sectionNumber": "05",
+  "title": "Interests",
+  "subtitle": "What I do when I step away from the keyboard.",
+  "items": [
+    {
+      "icon": "martial",
+      "title": "Martial arts",
+      "text": "Black belt in Japanese Jujitsu. Years of practice taught me discipline, attention to detail, and the value of consistent incremental progress — habits that carry directly into how I build software."
+    },
+    {
+      "icon": "globe",
+      "title": "Travel & cultures",
+      "text": "I love connecting with cultures different from my own — especially their spiritual traditions and the natural landscapes they grew out of. Every trip pushes me to think differently and come back with a wider perspective."
+    },
+    {
+      "icon": "mountain",
+      "title": "Mountain trekking",
+      "text": "Long hikes on high-altitude trails are how I reset. Few things beat the silence above the treeline."
+    },
+    {
+      "icon": "controller",
+      "title": "Strategy & RPG games",
+      "text": "I'm hooked on role-playing and strategy games — anything that rewards systems thinking, long-term planning, and getting deeply attached to fictional characters."
+    }
+  ]
+}

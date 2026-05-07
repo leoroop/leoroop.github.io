@@ -17,7 +17,8 @@
     "chat": "Chat",
     "experience": "Esperienza",
     "projects": "Progetti",
-    "skills": "Competenze"
+    "skills": "Competenze",
+    "interests": "Interessi"
   },
   "footerLinks": [
     { "label": "Email", "href": "mailto:leon.berta@gmail.com" },

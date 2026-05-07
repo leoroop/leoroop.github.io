@@ -90,14 +90,14 @@
     const datasets = await Promise.all(
       SUPPORTED_LANGS.map(async (lang) => {
         try {
-          const [profile, experience, projects, skills, curiosities] = await Promise.all([
+          const [profile, experience, projects, skills, interests] = await Promise.all([
             fetchJSON(`data/${lang}/profile.json`),
             fetchJSON(`data/${lang}/experience.json`),
             fetchJSON(`data/${lang}/projects.json`),
             fetchJSON(`data/${lang}/skills.json`),
-            fetchOptional(`data/${lang}/curiosities.json`),
+            fetchOptional(`data/${lang}/interests.json`),
           ]);
-          return { lang, profile, experience, projects, skills, curiosities };
+          return { lang, profile, experience, projects, skills, interests };
         } catch {
           return null;
         }
@@ -150,11 +150,11 @@
         });
       });
 
-      if (ds.curiosities && Array.isArray(ds.curiosities.items)) {
-        ds.curiosities.items.forEach((c, i) => {
+      if (ds.interests && Array.isArray(ds.interests.items)) {
+        ds.interests.items.forEach((c, i) => {
           chunks.push({
-            id: `${tag}:cur-${i}`,
-            title: c.title || 'Curiosity',
+            id: `${tag}:int-${i}`,
+            title: c.title || 'Interest',
             text: [c.title, c.text].filter(Boolean).join('. '),
           });
         });

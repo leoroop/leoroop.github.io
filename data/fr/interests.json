@@ -1,0 +1,27 @@
+{
+  "sectionNumber": "05",
+  "title": "Centres d'intérêt",
+  "subtitle": "Ce que je fais quand je m'éloigne du clavier.",
+  "items": [
+    {
+      "icon": "martial",
+      "title": "Arts martiaux",
+      "text": "Ceinture noire de jujitsu japonais. Des années de pratique m'ont appris la discipline, l'attention au détail et la valeur d'un progrès régulier et incrémental — des habitudes qui se retrouvent directement dans ma façon de construire des logiciels."
+    },
+    {
+      "icon": "globe",
+      "title": "Voyages et cultures",
+      "text": "J'aime entrer en contact avec des cultures différentes de la mienne — en particulier leurs traditions spirituelles et les paysages naturels dans lesquels elles ont grandi. Chaque voyage me pousse à penser autrement et à revenir avec une perspective élargie."
+    },
+    {
+      "icon": "mountain",
+      "title": "Trekking en montagne",
+      "text": "Les longues randonnées en altitude sont ma façon de décrocher. Peu d'endroits offrent le silence que l'on trouve au-dessus de la limite des arbres."
+    },
+    {
+      "icon": "controller",
+      "title": "Stratégie et JDR",
+      "text": "Je suis passionné de jeux de rôle et de stratégie — tout ce qui récompense la pensée systémique, la planification à long terme et l'attachement profond à des personnages de fiction."
+    }
+  ]
+}

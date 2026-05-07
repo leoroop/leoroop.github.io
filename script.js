@@ -12,6 +12,10 @@
     mail: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>',
     github: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.04c-3.2.7-3.87-1.37-3.87-1.37-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.34.95.1-.74.4-1.24.72-1.53-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.16 1.18a10.94 10.94 0 0 1 5.76 0c2.2-1.49 3.16-1.18 3.16-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.41-5.27 5.69.42.36.78 1.06.78 2.13v3.16c0 .31.21.68.8.56C20.21 21.39 23.5 17.08 23.5 12 23.5 5.65 18.35.5 12 .5z"/></svg>',
     cap: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>',
+    martial: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>',
+    globe: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 0 20M12 2a15.3 15.3 0 0 0 0 20"/></svg>',
+    mountain: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20l6-10 4 6 3-4 5 8z"/><circle cx="17" cy="6" r="1.5"/></svg>',
+    controller: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="11" rx="5.5"/><line x1="7" y1="11" x2="7" y2="15"/><line x1="5" y1="13" x2="9" y2="13"/><circle cx="16" cy="11.5" r="0.8" fill="currentColor"/><circle cx="18" cy="13.5" r="0.8" fill="currentColor"/></svg>',
   };
 
   const COLOR_COUNT = 8;
@@ -42,6 +46,7 @@
       <a href="#experience">${esc(p.nav.experience)}</a>
       <a href="#projects">${esc(p.nav.projects)}</a>
       <a href="#skills">${esc(p.nav.skills)}</a>
+      ${p.nav.interests ? `<a href="#interests">${esc(p.nav.interests)}</a>` : ''}
     `;
   };
 
@@ -168,6 +173,22 @@
     `;
   };
 
+  const renderInterests = (data) => {
+    const root = document.getElementById('interests-root');
+    if (!root || !data) return;
+    const cards = (data.items || []).map((it, i) => `
+      <article class="interest-card" data-color="${i % COLOR_COUNT}">
+        <div class="interest-icon">${icons[it.icon] || icons.cap}</div>
+        <h3>${esc(it.title)}</h3>
+        <p>${esc(it.text)}</p>
+      </article>
+    `).join('');
+    root.innerHTML = `
+      ${renderSectionHead(data)}
+      <div class="interests-grid">${cards}</div>
+    `;
+  };
+
   const renderFooter = (p) => {
     const root = document.getElementById('footer-root');
     if (!root) return;
@@ -184,7 +205,7 @@
   let initialRevealDone = false;
   const setupReveal = () => {
     const targets = document.querySelectorAll(
-      '.section-head, .timeline-item, .education-card, .project-card, .skill-group, .chat-widget, .chat-notice'
+      '.section-head, .timeline-item, .education-card, .project-card, .skill-group, .interest-card, .chat-widget, .chat-notice'
     );
     if (initialRevealDone) {
       targets.forEach((el) => el.classList.add('reveal', 'is-visible'));
@@ -278,12 +299,13 @@
   };
 
   const loadLanguage = async (lang) => {
-    const [profile, chat, experience, projects, skills] = await Promise.all([
+    const [profile, chat, experience, projects, skills, interests] = await Promise.all([
       fetchJSON(`data/${lang}/profile.json`),
       fetchJSON(`data/${lang}/chat.json`),
       fetchJSON(`data/${lang}/experience.json`),
       fetchJSON(`data/${lang}/projects.json`),
       fetchJSON(`data/${lang}/skills.json`),
+      fetchJSON(`data/${lang}/interests.json`),
     ]);
     document.documentElement.lang = lang;
     document.title = `${profile.name} — ${profile.role}`;
@@ -294,6 +316,7 @@
     renderExperience(experience);
     renderProjects(projects);
     renderSkills(skills);
+    renderInterests(interests);
     renderFooter(profile);
     setupReveal();
   };
