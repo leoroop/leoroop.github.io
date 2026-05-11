@@ -7,6 +7,98 @@
       '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
     })[c]);
 
+  // ===== Minimal Markdown -> HTML (HTML-safe) =====
+  // Escapes first, then applies markdown transforms. Safe for untrusted input
+  // (LLM output): no raw HTML passes through.
+  const renderMarkdown = (text) => {
+    if (!text) return '';
+    let s = escHtml(text);
+
+    // Fenced code blocks: extract first to protect from other transforms
+    const codeBlocks = [];
+    s = s.replace(/```([a-zA-Z0-9_+-]*)\n?([\s\S]*?)```/g, (_, lang, code) => {
+      const i = codeBlocks.length;
+      const cls = lang ? ` class="lang-${escHtml(lang)}"` : '';
+      codeBlocks.push(`<pre><code${cls}>${code.replace(/\n$/, '')}</code></pre>`);
+      return `\n@@CB${i}@@\n`;
+    });
+
+    // Inline code
+    s = s.replace(/`([^`\n]+)`/g, '<code>$1</code>');
+
+    // Bold (must come before italic to handle ** correctly)
+    s = s.replace(/\*\*([^*\n]+)\*\*/g, '<strong>$1</strong>');
+
+    // Italic — single * not adjacent to other *
+    s = s.replace(/(^|[^*])\*([^*\n]+)\*(?!\*)/g, '$1<em>$2</em>');
+
+    // Links [text](url) — http(s), mailto only
+    s = s.replace(
+      /\[([^\]\n]+)\]\((https?:\/\/[^)\s]+|mailto:[^)\s]+)\)/g,
+      '<a href="$2" target="_blank" rel="noopener">$1</a>'
+    );
+
+    // Block-level pass
+    const lines = s.split('\n');
+    const out = [];
+    let para = [];
+    let inUl = false, inOl = false;
+
+    const flushPara = () => {
+      if (para.length) { out.push(`<p>${para.join(' ')}</p>`); para = []; }
+    };
+    const closeLists = () => {
+      if (inUl) { out.push('</ul>'); inUl = false; }
+      if (inOl) { out.push('</ol>'); inOl = false; }
+    };
+
+    for (const raw of lines) {
+      const line = raw.trim();
+
+      if (/^@@CB\d+@@$/.test(line)) {
+        flushPara(); closeLists();
+        out.push(line);
+        continue;
+      }
+
+      if (!line) { flushPara(); closeLists(); continue; }
+
+      const h = line.match(/^(#{1,3})\s+(.+)$/);
+      if (h) {
+        flushPara(); closeLists();
+        const lvl = h[1].length + 2; // h3, h4, h5
+        out.push(`<h${lvl}>${h[2]}</h${lvl}>`);
+        continue;
+      }
+
+      const ul = line.match(/^[-*]\s+(.+)$/);
+      if (ul) {
+        flushPara();
+        if (inOl) { out.push('</ol>'); inOl = false; }
+        if (!inUl) { out.push('<ul>'); inUl = true; }
+        out.push(`<li>${ul[1]}</li>`);
+        continue;
+      }
+
+      const ol = line.match(/^\d+\.\s+(.+)$/);
+      if (ol) {
+        flushPara();
+        if (inUl) { out.push('</ul>'); inUl = false; }
+        if (!inOl) { out.push('<ol>'); inOl = true; }
+        out.push(`<li>${ol[1]}</li>`);
+        continue;
+      }
+
+      closeLists();
+      para.push(line);
+    }
+    flushPara(); closeLists();
+
+    let html = out.join('\n');
+    html = html.replace(/@@CB(\d+)@@/g, (_, i) => codeBlocks[+i]);
+    return html;
+  };
+
   // ===== Tokenisation + stopwords (EN / IT / FR) =====
   const STOPWORDS = new Set([
     'the','a','an','and','or','but','if','of','to','in','on','at','for','with','as','is','are','was','were','be','been','being','it','its','this','that','these','those','i','you','he','she','we','they','his','her','their','my','your','our','what','who','which','where','when','why','how','do','does','did','have','has','had','will','would','should','can','could','about','from','by','so','than','then','too','very','just','also','not','no','yes','any','all','each','every','more','most','some','such','only','own','same',
@@ -299,7 +391,14 @@
     const renderBubble = (role, text) => {
       const div = document.createElement('div');
       div.className = `chat-bubble chat-${role}`;
-      div.textContent = text;
+      if (role === 'bot') {
+        const body = document.createElement('div');
+        body.className = 'chat-md';
+        body.innerHTML = renderMarkdown(text);
+        div.appendChild(body);
+      } else {
+        div.textContent = text;
+      }
       messagesEl.appendChild(div);
       scrollBottom();
       return div;
@@ -355,28 +454,24 @@
         ];
 
         let botBubble = null;
-        let textSpan = null;
-        let cursorSpan = null;
+        let bodyDiv = null;
 
         const fullText = await streamLLM(cfg, messages, (_delta, accumulated) => {
           if (!botBubble) {
             typingEl.remove();
             botBubble = document.createElement('div');
-            botBubble.className = 'chat-bubble chat-bot';
-            textSpan = document.createElement('span');
-            cursorSpan = document.createElement('span');
-            cursorSpan.className = 'chat-cursor';
-            cursorSpan.setAttribute('aria-hidden', 'true');
-            botBubble.appendChild(textSpan);
-            botBubble.appendChild(cursorSpan);
+            botBubble.className = 'chat-bubble chat-bot is-streaming';
+            bodyDiv = document.createElement('div');
+            bodyDiv.className = 'chat-md';
+            botBubble.appendChild(bodyDiv);
             messagesEl.appendChild(botBubble);
           }
-          textSpan.textContent = accumulated;
+          bodyDiv.innerHTML = renderMarkdown(accumulated);
           scrollBottom();
         });
 
         if (botBubble) {
-          cursorSpan.remove();
+          botBubble.classList.remove('is-streaming');
           history.push({ role: 'user', content: q });
           history.push({ role: 'assistant', content: fullText });
         } else {
