@@ -4,24 +4,24 @@
   "subtitle": "Cosa faccio quando mi allontano dalla tastiera.",
   "items": [
     {
+      "icon": "pokeball",
+      "title": "Competitor Pokémon VGC",
+      "text": "Giocatore competitivo di Pokémon e vincitore in tornei internazionali. Il VGC allena gli stessi muscoli che uso sul lavoro: preparazione strategica profonda, lettura di sistemi complessi sotto pressione e capacità di adattare il piano turno dopo turno."
+    },
+    {
+      "icon": "guitar",
+      "title": "Chitarrista hard rock",
+      "text": "Anima da chitarrista soul, formato in un'accademia musicale. L'hard rock è dove faccio uscire il lato creativo — improvvisare su un riff è un altro modo di risolvere problemi."
+    },
+    {
       "icon": "martial",
-      "title": "Arti marziali",
-      "text": "Cintura nera di jujitsu giapponese. Anni di pratica mi hanno insegnato disciplina, cura del dettaglio e il valore del progresso incrementale costante — abitudini che porto direttamente nel modo in cui costruisco software."
+      "title": "Cintura nera di Ju-Jitsu",
+      "text": "Cintura nera di Ju-Jitsu giapponese, oltre 15 anni di pratica. Disciplina, cura del dettaglio e valore del progresso incrementale costante — abitudini che porto direttamente nel modo in cui costruisco software."
     },
     {
-      "icon": "globe",
-      "title": "Viaggi e culture",
-      "text": "Mi piace entrare in contatto con culture diverse dalla mia — in particolare con le loro tradizioni spirituali e con i paesaggi naturali in cui sono cresciute. Ogni viaggio mi spinge a pensare in modo diverso e a tornare con una prospettiva più ampia."
-    },
-    {
-      "icon": "mountain",
-      "title": "Trekking in montagna",
-      "text": "I trekking in alta quota sono il mio modo per staccare. Pochi luoghi hanno il silenzio che si trova sopra il limite del bosco."
-    },
-    {
-      "icon": "controller",
-      "title": "Strategici e GDR",
-      "text": "Sono appassionato di videogiochi di ruolo e strategici — tutto ciò che premia il pensiero sistemico, la pianificazione a lungo termine e l'affezionarsi profondamente a personaggi di finzione."
+      "icon": "medal",
+      "title": "Spartan Race multi-trifecta",
+      "text": "Multi-trifecta finisher alla Spartan Race. Le obstacle race mi tengono battle-tested: gestire sforzi lunghi, terreno sconosciuto e rifiutarsi di mollare quando l'ostacolo successivo sembra impossibile."
     }
   ]
 }

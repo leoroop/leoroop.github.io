@@ -6,19 +6,19 @@
     {
       "category": "AI · RAG",
       "title": "AI Process Automation POCs",
-      "description": "Series of proof-of-concept projects exploring the application of generative AI to business process automation. Spanned RAG over enterprise data, agentic workflows, and graph-augmented retrieval.",
-      "tags": ["LangChain", "Pydantic AI", "Neo4j", "pgvector", "FastAPI"]
+      "description": "Multiple successful proof-of-concept projects applying generative AI to enterprise process automation. Spanned custom-built RAG pipelines over enterprise data, multi-agent orchestration, graph-augmented retrieval, and MLflow-tracked experimentation.",
+      "tags": ["LangChain", "Pydantic AI", "Custom RAG", "MLflow", "Neo4j", "Amazon Neptune", "pgvector", "FastAPI"]
     },
     {
-      "category": "Backend",
+      "category": "Backend · Enterprise",
       "title": "Spring State Machine Workflow Engine",
-      "description": "Experimental enterprise project built on Spring Framework with extensive use of Spring State Machine to model complex, long-running business workflows with auditable state transitions.",
-      "tags": ["Java", "Spring", "Spring State Machine"]
+      "description": "Enterprise project built on Spring Framework with extensive use of Spring State Machine to model complex, long-running business workflows with auditable state transitions. Quality enforced via JUnit, Mockito, Testcontainers, and Sonarqube.",
+      "tags": ["Java", "Spring Framework", "Spring State Machine", "JUnit", "Mockito", "Testcontainers", "Sonarqube"]
     },
     {
       "category": "Embedded · Scientific",
       "title": "Seismic & Structural Monitoring Platform",
-      "description": "Firmware and analysis software for integrated seismic monitoring devices. Embedded C/C++ for data acquisition (ADC, GPS) and Python/ObsPy tooling — both GUI and CLI — for client-facing seismic data analysis.",
+      "description": "Firmware and analysis software for integrated seismic monitoring devices. Embedded C/C++ for data acquisition (ADC, GPS) and Python/ObsPy tooling — GUI and CLI — for client-facing seismic data analysis.",
       "tags": ["C / C++", "Python", "ObsPy", "Microcontrollers"]
     },
     {
@@ -36,26 +36,20 @@
     {
       "category": "Embedded · UI",
       "title": "ARM Touchscreen Device Software",
-      "description": "Full application stack for an ARM-based touchscreen device: Qt/QML user interface, OpenCV/GStreamer image processing, and a custom Yocto Linux distribution tailored to the hardware.",
-      "tags": ["Qt", "QML", "OpenCV", "GStreamer", "Yocto"]
+      "description": "Full application stack for the Soft FX Skin Analyzer — an ARM-based touchscreen device: Qt/QML UI, OpenCV/GStreamer image processing, and a custom Yocto Linux distribution tailored to the hardware.",
+      "tags": ["Qt", "QML", "OpenCV", "GStreamer", "Yocto Project", "Embedded Linux"]
     },
     {
       "category": "Web · SaaS",
       "title": "Workplace Safety Management System",
-      "description": "Contributed to a large web-based platform for workplace safety compliance, with Java server-side logic and JavaScript on the client, against SQL Server, PostgreSQL, and Oracle DB.",
-      "tags": ["Java", "JavaScript", "SQL"]
+      "description": "Contributed to a large Java/JavaScript web-based management system for workplace safety, integrated against SQL Server, PostgreSQL, and Oracle DB.",
+      "tags": ["Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB"]
     },
     {
       "category": "Industrial Automation",
       "title": "PLC & Robotic Cell Automation",
-      "description": "Hardware configuration and software development for Siemens / Allen-Bradley PLCs and Fanuc industrial robots. On-site testing and commissioning of automation lines for several clients.",
+      "description": "Hardware configuration and software development for Siemens / Allen-Bradley PLCs and Fanuc industrial robots. On-site testing and commissioning of automation lines across several clients.",
       "tags": ["Siemens", "Allen-Bradley", "Fanuc"]
-    },
-    {
-      "category": "IoT · Web",
-      "title": "Configurable Home PLC",
-      "description": "Compact home-automation PLC product with a web configuration UI. Server in Java EE with PHP components, dynamic jQuery front-end designed for non-technical users.",
-      "tags": ["Java EE", "PHP", "jQuery"]
     },
     {
       "category": "Robotics · Thesis",

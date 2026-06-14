@@ -4,24 +4,24 @@
   "subtitle": "What I do when I step away from the keyboard.",
   "items": [
     {
+      "icon": "pokeball",
+      "title": "Pokémon VGC competitor",
+      "text": "Competitive Pokémon player and winner at international tournaments. VGC trains the same muscles I use at work: deep strategic preparation, reading complex systems under pressure, and adapting plans turn by turn."
+    },
+    {
+      "icon": "guitar",
+      "title": "Hard rock guitarist",
+      "text": "Soul guitarist trained at a music academy. Hard rock is where I channel the creative side — improvising over a riff is its own kind of problem-solving."
+    },
+    {
       "icon": "martial",
-      "title": "Martial arts",
-      "text": "Black belt in Japanese Jujitsu. Years of practice taught me discipline, attention to detail, and the value of consistent incremental progress — habits that carry directly into how I build software."
+      "title": "Ju-Jitsu black belt",
+      "text": "Black belt in Japanese Ju-Jitsu with over 15 years of practice. Discipline, attention to detail, and the value of steady incremental progress — habits that carry directly into how I build software."
     },
     {
-      "icon": "globe",
-      "title": "Travel & cultures",
-      "text": "I love connecting with cultures different from my own — especially their spiritual traditions and the natural landscapes they grew out of. Every trip pushes me to think differently and come back with a wider perspective."
-    },
-    {
-      "icon": "mountain",
-      "title": "Mountain trekking",
-      "text": "Long hikes on high-altitude trails are how I reset. Few things beat the silence above the treeline."
-    },
-    {
-      "icon": "controller",
-      "title": "Strategy & RPG games",
-      "text": "I'm hooked on role-playing and strategy games — anything that rewards systems thinking, long-term planning, and getting deeply attached to fictional characters."
+      "icon": "medal",
+      "title": "Spartan Race trifecta finisher",
+      "text": "Multi-trifecta Spartan Race finisher. Obstacle racing keeps me battle-tested: pacing long efforts, handling unknown terrain, and refusing to quit when the next obstacle looks impossible."
     }
   ]
 }

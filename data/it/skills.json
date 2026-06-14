@@ -4,36 +4,36 @@
   "subtitle": "Tecnologie con cui ho rilasciato lavoro in produzione.",
   "groups": [
     {
-      "name": "AI & Machine Learning",
-      "items": ["LangChain", "Pydantic AI", "Sistemi RAG", "Vector Database", "Graph RAG", "Prompt Engineering"]
+      "name": "Architettura & Cloud",
+      "items": ["AWS", "GCP", "Architettura a Microservizi", "Event-Driven Architecture", "Apache Kafka", "Google Pub/Sub"]
     },
     {
-      "name": "Linguaggi",
-      "items": ["Python", "Java", "C", "C++", "JavaScript", "SQL"]
+      "name": "AI & Data Engineering",
+      "items": ["Pipeline RAG Custom", "LangChain", "Pydantic AI", "MLflow", "MLOps", "Graph RAG", "pgvector", "Redis", "Neo4j", "Amazon Neptune", "Prompt Engineering"]
     },
     {
-      "name": "Backend & Framework",
-      "items": ["FastAPI", "Pydantic", "Spring Framework", "Spring State Machine", "SQLAlchemy", "Alembic", "Celery", "Java EE / Tomcat"]
+      "name": "Linguaggi di Programmazione",
+      "items": ["Python", "Java", "C++", "C", "SQL", "JavaScript"]
     },
     {
-      "name": "Cloud & Infrastruttura",
-      "items": ["AWS", "GCP", "Linux", "Yocto Project"]
+      "name": "Framework & Librerie",
+      "items": ["Spring Framework", "Spring State Machine", "FastAPI", "Pydantic", "SQLAlchemy", "Alembic", "Celery", "Qt", "QML", "ObsPy", "Java EE / Tomcat"]
     },
     {
-      "name": "Database",
-      "items": ["PostgreSQL", "pgvector", "Redis", "Neo4j", "Amazon Neptune", "SQL Server", "Oracle DB"]
+      "name": "Testing & Quality Assurance",
+      "items": ["Pytest", "JUnit", "Mockito", "Testcontainers", "Sonarqube"]
     },
     {
-      "name": "Embedded & Robotica",
-      "items": ["Microcontrollori", "Qt / QML", "OpenCV", "GStreamer", "ObsPy", "PLC Siemens / Allen-Bradley", "Robot Fanuc"]
+      "name": "DevOps & Observability",
+      "items": ["Docker", "Kubernetes", "Jenkins", "Mirantis", "Freelens", "Splunk", "Yocto Project", "Linux"]
     },
     {
-      "name": "Web",
-      "items": ["HTML5", "CSS", "jQuery", "PHP"]
+      "name": "Embedded & Industriale",
+      "items": ["Microcontrollori", "OpenCV", "GStreamer", "PLC Siemens / Allen-Bradley", "Robot Fanuc"]
     },
     {
       "name": "Lingue Parlate",
-      "items": ["Italiano — Madrelingua", "Inglese — B2", "Francese — A2"]
+      "items": ["Italiano — Madrelingua", "Inglese — Professionale", "Francese — Base", "Spagnolo — Base"]
     }
   ]
 }

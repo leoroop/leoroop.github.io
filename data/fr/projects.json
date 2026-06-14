@@ -6,14 +6,14 @@
     {
       "category": "IA · RAG",
       "title": "POC d'Automatisation de Processus par IA",
-      "description": "Série de proof-of-concepts explorant l'application de l'IA générative à l'automatisation des processus métier. Ont couvert le RAG sur données d'entreprise, les workflows agentiques et la récupération augmentée par graphes.",
-      "tags": ["LangChain", "Pydantic AI", "Neo4j", "pgvector", "FastAPI"]
+      "description": "Plusieurs proof-of-concepts réussis sur l'application de l'IA générative à l'automatisation des processus métier. Pipelines RAG sur mesure sur données d'entreprise, orchestration multi-agents, récupération augmentée par graphes et expérimentations tracées avec MLflow.",
+      "tags": ["LangChain", "Pydantic AI", "RAG sur mesure", "MLflow", "Neo4j", "Amazon Neptune", "pgvector", "FastAPI"]
     },
     {
-      "category": "Backend",
+      "category": "Backend · Entreprise",
       "title": "Moteur de Workflow Spring State Machine",
-      "description": "Projet expérimental d'entreprise construit sur Spring Framework avec un usage intensif de Spring State Machine pour modéliser des workflows métier complexes et de longue durée, avec des transitions d'état traçables.",
-      "tags": ["Java", "Spring", "Spring State Machine"]
+      "description": "Projet d'entreprise construit sur Spring Framework avec un usage intensif de Spring State Machine pour modéliser des workflows métier complexes et de longue durée, avec des transitions d'état traçables. Qualité garantie par JUnit, Mockito, Testcontainers et Sonarqube.",
+      "tags": ["Java", "Spring Framework", "Spring State Machine", "JUnit", "Mockito", "Testcontainers", "Sonarqube"]
     },
     {
       "category": "Embarqué · Scientifique",
@@ -36,26 +36,20 @@
     {
       "category": "Embarqué · UI",
       "title": "Logiciel pour Appareil Tactile ARM",
-      "description": "Pile applicative complète pour un appareil tactile basé sur ARM : interface utilisateur Qt/QML, traitement d'image OpenCV/GStreamer et une distribution Linux Yocto sur mesure pour le matériel.",
-      "tags": ["Qt", "QML", "OpenCV", "GStreamer", "Yocto"]
+      "description": "Pile applicative complète du Soft FX Skin Analyzer — appareil tactile ARM : interface Qt/QML, traitement d'image OpenCV/GStreamer et distribution Linux Yocto sur mesure pour le matériel.",
+      "tags": ["Qt", "QML", "OpenCV", "GStreamer", "Yocto Project", "Embedded Linux"]
     },
     {
       "category": "Web · SaaS",
       "title": "Système de Gestion de la Sécurité au Travail",
-      "description": "Contribution à une grande plateforme web pour la conformité en matière de sécurité au travail, avec logique serveur en Java et JavaScript côté client, sur SQL Server, PostgreSQL et Oracle DB.",
-      "tags": ["Java", "JavaScript", "SQL"]
+      "description": "Contribution à une grande plateforme web Java/JavaScript pour la gestion de la sécurité au travail, intégrée avec SQL Server, PostgreSQL et Oracle DB.",
+      "tags": ["Java", "JavaScript", "SQL Server", "PostgreSQL", "Oracle DB"]
     },
     {
       "category": "Automatisation Industrielle",
       "title": "Automatisation de Cellule Robotique & Automates",
       "description": "Configuration matérielle et développement logiciel pour automates Siemens / Allen-Bradley et robots industriels Fanuc. Tests et mise en service de lignes d'automatisation chez plusieurs clients.",
       "tags": ["Siemens", "Allen-Bradley", "Fanuc"]
-    },
-    {
-      "category": "IoT · Web",
-      "title": "Automate Domestique Configurable",
-      "description": "Produit automate compact pour la domotique avec interface web de configuration. Serveur en Java EE avec composants PHP, front-end dynamique jQuery conçu pour des utilisateurs non techniques.",
-      "tags": ["Java EE", "PHP", "jQuery"]
     },
     {
       "category": "Robotique · Mémoire",

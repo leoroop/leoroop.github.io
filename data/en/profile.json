@@ -3,16 +3,16 @@
   "brandName": "Leonardo Bertazzolo",
   "photo": "profile.jpg",
   "name": "Leonardo Bertazzolo",
-  "role": "AI Engineer",
-  "tagline": "building intelligent systems that automate real work",
-  "lede": "From microcontrollers and industrial automation to large-scale RAG and agentic AI: I've spent eight years turning complex requirements into shipped software across embedded, backend, and AI domains.",
+  "role": "AI Engineer · Tech Leader · Solution Architect",
+  "tagline": "designing scalable microservices ecosystems that bring AI into real work",
+  "lede": "Lifelong passion for computers, robotics, and the limitless worlds of tech, fantasy, and video games. Over 10 years of software engineering across embedded systems, backend, and enterprise architecture — with a proven track record transitioning from full-stack and Java development into leading major Artificial Intelligence projects.",
   "ctaPrimary": { "label": "Try the chat", "href": "#chat" },
-  "ctaSecondary": { "label": "Download CV", "href": "CV-Bertazzolo-20250918-EN.pdf" },
+  "ctaSecondary": { "label": "Download CV", "href": "CV-Bertazzolo-20260614-EN.pdf" },
   "location": "La Spezia, Italy",
   "email": "leon.berta@gmail.com",
   "githubUser": "leoroop",
   "githubUrl": "https://github.com/leoroop",
-  "cvPath": "CV-Bertazzolo-20250918-EN.pdf",
+  "cvPath": "CV-Bertazzolo-20260614-EN.pdf",
   "nav": {
     "chat": "Chat",
     "experience": "Experience",
@@ -23,6 +23,6 @@
   "footerLinks": [
     { "label": "Email", "href": "mailto:leon.berta@gmail.com" },
     { "label": "GitHub", "href": "https://github.com/leoroop", "external": true },
-    { "label": "CV (PDF)", "href": "CV-Bertazzolo-20250918-EN.pdf", "external": true }
+    { "label": "CV (PDF)", "href": "CV-Bertazzolo-20260614-EN.pdf", "external": true }
   ]
 }

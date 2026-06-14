@@ -4,24 +4,24 @@
   "subtitle": "Ce que je fais quand je m'éloigne du clavier.",
   "items": [
     {
+      "icon": "pokeball",
+      "title": "Compétiteur Pokémon VGC",
+      "text": "Joueur compétitif de Pokémon et vainqueur de tournois internationaux. Le VGC entraîne les mêmes muscles que ceux que j'utilise au travail : préparation stratégique profonde, lecture de systèmes complexes sous pression et adaptation tour après tour."
+    },
+    {
+      "icon": "guitar",
+      "title": "Guitariste hard rock",
+      "text": "Âme de guitariste soul, formé en académie de musique. Le hard rock, c'est là que je laisse parler le côté créatif — improviser sur un riff est une autre façon de résoudre des problèmes."
+    },
+    {
       "icon": "martial",
-      "title": "Arts martiaux",
-      "text": "Ceinture noire de jujitsu japonais. Des années de pratique m'ont appris la discipline, l'attention au détail et la valeur d'un progrès régulier et incrémental — des habitudes qui se retrouvent directement dans ma façon de construire des logiciels."
+      "title": "Ceinture noire de Ju-Jitsu",
+      "text": "Ceinture noire de Ju-Jitsu japonais, plus de 15 ans de pratique. Discipline, attention au détail et valeur d'un progrès régulier — des habitudes qui se retrouvent directement dans ma façon de construire des logiciels."
     },
     {
-      "icon": "globe",
-      "title": "Voyages et cultures",
-      "text": "J'aime entrer en contact avec des cultures différentes de la mienne — en particulier leurs traditions spirituelles et les paysages naturels dans lesquels elles ont grandi. Chaque voyage me pousse à penser autrement et à revenir avec une perspective élargie."
-    },
-    {
-      "icon": "mountain",
-      "title": "Trekking en montagne",
-      "text": "Les longues randonnées en altitude sont ma façon de décrocher. Peu d'endroits offrent le silence que l'on trouve au-dessus de la limite des arbres."
-    },
-    {
-      "icon": "controller",
-      "title": "Stratégie et JDR",
-      "text": "Je suis passionné de jeux de rôle et de stratégie — tout ce qui récompense la pensée systémique, la planification à long terme et l'attachement profond à des personnages de fiction."
+      "icon": "medal",
+      "title": "Multi-trifecta Spartan Race",
+      "text": "Multi-trifecta finisher à la Spartan Race. Les courses à obstacles me gardent battle-tested : gérer des efforts longs, des terrains inconnus et refuser d'abandonner quand l'obstacle suivant semble impossible."
     }
   ]
 }
